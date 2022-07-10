@@ -52,6 +52,14 @@ class TestDirectorService:
         self.director_service.delete(1)
 
 
+    def test_update(self):
+        director_d = {
+            "id": 3,
+            "name": "denis",
+        }
+        self.director_service.update(director_d)
+
+
 
 
 
